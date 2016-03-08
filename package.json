@@ -1,7 +1,7 @@
 {
   "name": "nightwatch-data-driven",
   "version": "0.0.7",
-  "description": "Utilities for writing data driven tests with nightwatch.",
+  "description": "Provides tool for emulating data driven tests in Nightwatch.js.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
