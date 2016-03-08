@@ -12,6 +12,8 @@ var test = {
         browser.init();
     },
     'Valid credentials => successfull login': function (browser) {
+        // . Initialize DataDrivenTest with browser and AAA function
+        //   and call it for a set of test cases
         new DataDrivenTest(browser, function(data, name){
             // . Arrange
             browser.logout();
@@ -42,7 +44,7 @@ export = test;
 import DataDrivenTest from 'nightwatch-data-driven';
 import {mother} from '../mother';
 
-// . Create test blank
+// . Create "test blank"
 let submitLoginForm = new DataDrivenTest()
 	.withArrange(function(cb) {
 		this.browser.logout(cb)
@@ -54,7 +56,7 @@ let submitLoginForm = new DataDrivenTest()
  var test = {
     before: function (browser) {
         browser.init();
-        // . Initialize test blank with browser
+        // . Initialize "test blank" with browser
         submitLoginForm.withBrowser(browser);
     },
     'Login is invalid email: show error': function (browser) {
