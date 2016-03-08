@@ -1,6 +1,6 @@
 {
   "name": "nightwatch-data-driven",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Provides tool for emulating data driven tests in Nightwatch.js.",
   "main": "index.js",
   "scripts": {
