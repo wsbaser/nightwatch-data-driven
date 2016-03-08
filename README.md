@@ -1,7 +1,9 @@
 # nightwatch-data-driven
 
-Utilities for writing data driven tests with nightwatch.
+This module provides object for emulating data driven tests in Nightwatch.js.
 
+#### Example:
+```js
 import DataDrivenTest from 'nightwatch-data-driven';
 import {authConfig}  from '../configs/auth';
 
