@@ -1,6 +1,6 @@
 # nightwatch-data-driven
 
-Provides tool for emulating data driven tests in Nightwatch.js.
+Provides tool for emulating data [driven tests](https://en.wikipedia.org/wiki/Data-driven_testing) in [Nightwatch.js](http://nightwatchjs.org/).
 
 #### Installation
 
