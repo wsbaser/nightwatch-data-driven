@@ -60,7 +60,7 @@ let submitLoginForm = new DataDrivenTest()
         submitLoginForm.withBrowser(browser);
     },
     'Login is invalid email: show error': function (browser) {
-        // . Use "test blank" with specific assertion and data
+        // . Use "test blank" with specific assertion and test cases
         submitLoginForm
             .withAssert((dt, nm) => browser.page.login().assertNoProgress(nm))
             .forCases({
@@ -75,7 +75,7 @@ let submitLoginForm = new DataDrivenTest()
             });
     },
     'Login is valid email: show progress': function (browser) {
-        // . Use "test blank" with specific assertion and data
+        // . Use "test blank" with specific assertion and test cases
         submitLoginForm
             .withAssert((dt, nm) => browser.page.login().assertProgressDisplayed(nm))
             .forCases({
