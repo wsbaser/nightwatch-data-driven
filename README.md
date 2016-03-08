@@ -2,7 +2,14 @@
 
 Provides tool for emulating data driven tests in Nightwatch.js.
 
+#### Installation
+
+```sh
+npm i nightwatch-data-driven --save
+```
+
 #### Example 1: Simple usage
+
 ```js
 import DataDrivenTest from 'nightwatch-data-driven';
 import {authConfig}  from '../configs/auth';
@@ -40,6 +47,7 @@ export = test;
 ```
 
 #### Example 2: Building and reusing of "test blanks"
+
 ```js
 import DataDrivenTest from 'nightwatch-data-driven';
 import {mother} from '../mother';
