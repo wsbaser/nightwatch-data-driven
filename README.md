@@ -15,7 +15,7 @@ import DataDrivenTest from 'nightwatch-data-driven';
 import {authConfig}  from '../configs/auth';
 
 var test = {
-    after: function (browser) {
+    before: function (browser) {
         browser.init();
     },
     'Valid credentials => successfull login': function (browser) {
