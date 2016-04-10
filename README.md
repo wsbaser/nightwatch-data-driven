@@ -92,6 +92,9 @@ let submitLoginForm = new DataDrivenTest()
                 "3. ": {email: "a@1-b.cd"},
                 "4. ": {email: "a@b.12"}
             });
+    },
+    after: function (browser) {
+        browser.end();
     }
 }
 export = test;
