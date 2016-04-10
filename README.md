@@ -54,7 +54,7 @@ export = test;
 2. Call **withArrange** method passing _**A**rrange_ function of "test blank".
 3. Call **withAct** method passing _**A**ct_ function of "test blank".
 4. Call **withBrowser** method(in *before* hook for example), passing Nightwatch browser object.
-5. Call **forCases** method.
+5. Now you can reuse "test blank" calling **withAssert** and **forCases** methods with different _**A**ssert_ functions and data in each particular test.
 
 
 ```js
